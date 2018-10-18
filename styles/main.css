@@ -69,3 +69,13 @@ h2 {
 .flex-img {
     width: 100%;
 }
+
+.float {
+    position: relative;
+    top: 0;
+    transition: top ease 0.3s;
+}
+
+.float:hover {
+    top: -3px;
+}
