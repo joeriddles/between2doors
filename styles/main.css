@@ -41,3 +41,9 @@ a {
     position: sticky;
     top: 10pt;
 }
+
+::-webkit-scrollbar {
+    height: 1px;
+    width: 1px;
+    background: #000;
+}
