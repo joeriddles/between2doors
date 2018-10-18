@@ -1,0 +1,43 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-size: 144pt;
+    text-align: center;
+    color: #00C0DE;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.menu {
+    float: right;
+    position: sticky;
+    top: 10pt;
+}
+
+.menu a {
+    font-size: 24pt;
+    padding: 20px 20px 0px 0px; 
+}
+
+.menu a:hover {
+    color: #FF00FF;
+    cursor: pointer;
+}
+
+.stick {
+    position: sticky;
+    top: 10pt;
+}
