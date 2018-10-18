@@ -10,8 +10,9 @@ h1 {
     color: #00C0DE;
 }
 
-a {
-    text-decoration: none;
+h2 {
+    text-align: center;
+    color:white;
 }
 
 .center {
@@ -27,9 +28,11 @@ a {
     top: 10pt;
 }
 
-.menu a {
+.menu a, a:link, a:visited {
     font-size: 24pt;
     padding: 20px 20px 0px 0px; 
+    color: white;
+    text-decoration: none;
 }
 
 .menu a:hover {
