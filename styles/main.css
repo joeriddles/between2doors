@@ -50,3 +50,16 @@ h2 {
     width: 1px;
     background: #000;
 }
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.flex-img {
+    width: 100%;
+}
