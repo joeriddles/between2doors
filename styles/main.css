@@ -26,6 +26,7 @@ h2 {
     float: right;
     position: sticky;
     top: 10pt;
+    z-index: 1;
 }
 
 .menu a, a:link, a:visited {
@@ -78,4 +79,8 @@ h2 {
 
 .float:hover {
     top: -3px;
+}
+
+.icon {
+    z-index: 1;
 }
